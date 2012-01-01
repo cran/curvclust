@@ -1,0 +1,17 @@
+exportClasses(CClustData,CClustO,CClustRes)
+exportMethods("initialize","[","show","summary")
+exportMethods(getCM,
+              getFCMM,
+              getFCM,
+              getFMM,
+              getUnionCoef,
+              getwr.Y,
+              getwr.mu,
+              getwr.Blup,
+              getwr.varU,
+              getwr.varBlup,
+              getlambda.U,
+              getSNR.mu,
+              getBIC,
+              getICL)
+export(simcurv)
